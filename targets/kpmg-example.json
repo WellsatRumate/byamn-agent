@@ -1,0 +1,49 @@
+{
+  "_disclaimer": "This is dummy data. BYAMN has the real target list hidden for privacy. The schema below mirrors what the agent actually uses; replace with your own targets to run BYAMN on your campaign.",
+  "campaign": "kpmg-example",
+  "generated": "2026-05-25",
+  "targets": [
+    {
+      "name": "Jane Smith",
+      "org": "Acme Corp",
+      "title": "Head of AI Research",
+      "approach": "value",
+      "email": "",
+      "linkedin": "search: Jane Smith Acme Corp",
+      "twitter": "",
+      "instagram": "",
+      "priority": 1,
+      "source": "manual",
+      "discovered_via": null,
+      "notes": "Example target. Replace with real research output from the Recon agent."
+    },
+    {
+      "name": "John Doe",
+      "org": "Acme Corp",
+      "title": "Senior Consultant, Data & AI",
+      "approach": "warm",
+      "email": "",
+      "linkedin": "linkedin.com/in/johndoe-example",
+      "twitter": "@johndoe",
+      "instagram": "",
+      "priority": 2,
+      "source": "deep-recon",
+      "discovered_via": "Jane Smith",
+      "notes": "Example peer-level target discovered via network mapping."
+    },
+    {
+      "name": "Pat Liu",
+      "org": "Acme Corp",
+      "title": "Managing Partner, Digital & Transformation",
+      "approach": "direct",
+      "email": "",
+      "linkedin": "search: Pat Liu Acme Corp",
+      "twitter": "",
+      "instagram": "",
+      "priority": 1,
+      "source": "manual",
+      "discovered_via": null,
+      "notes": "Example executive target. Replace with real research."
+    }
+  ]
+}

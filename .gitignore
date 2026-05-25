@@ -1,0 +1,12 @@
+node_modules/
+drafts/
+reports/
+output/
+.browser-data/
+config/gmail-credentials.json
+config/gmail-token.json
+config/ig-credentials.json
+.env
+*.log
+.gstack/
+.claude/
