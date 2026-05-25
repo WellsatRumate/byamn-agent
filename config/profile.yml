@@ -1,0 +1,34 @@
+# Wells Mensah — BYAMN Profile Config
+
+name: Wells Mensah
+email: wells.mensah@gmail.com
+phone: +1-647-657-9692
+location: Toronto, ON, Canada
+linkedin: linkedin.com/in/wellsmensah-695264193?
+website: rumate.io/intelligence
+github: github.com/wellsatrumate
+
+# Target role
+target:
+  company: KPMG Canada
+  role: AI Builder (Senior Consultant)
+  team: Data Analytics & AI Centre of Excellence
+  location: Toronto, ON
+
+# Preferences
+preferences:
+  max_messages_per_day: 10
+  min_hours_between_followups: 72
+  channels:
+    - email
+    - linkedin
+    - twitter
+  tone: professional-direct
+  always_include_signature: true
+
+# Gmail OAuth (credentials/token files are gitignored)
+gmail:
+  credentials_path: config/gmail-credentials.json
+  token_path: config/gmail-token.json
+  from_name: Wells Mensah
+  from_email: wells.mensah@gmail.com
